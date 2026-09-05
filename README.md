@@ -26,6 +26,9 @@ Produto de comércio agêntico construído sobre o repositório de referência
   Garry Tan: veredito, o que a ferramenta derrubou e confirmou, lacunas por prioridade com o experimento
   que fecha cada uma, o experimento de 60 dias com critérios de morte, os limites do teste e o que muda
   no plano. As respostas brutas do gbrain estão em [`docs/gbrain/`](docs/gbrain/).
+- [`docs/poc-mandato.md`](docs/poc-mandato.md): desenho da POC técnica do Mandato em quatro semanas: escopo,
+  arquitetura sobre o repositório de referência, o mandato como dado, cotação determinística, cronograma,
+  métricas, script de demo, riscos e a passagem para a fase 0 com parceiros reais.
 
 ## Tese em uma frase
 

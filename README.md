@@ -10,6 +10,11 @@ Produto de comércio agêntico construído sobre o repositório de referência
   (Trust & Transaction Kernel, Commerce Operator, Shopping Concierge, Gateway, Assurance), com o mapa
   do que vem do repositório de referência, o que é estendido e o que é novo, o empacotamento comercial
   e a sequência de construção.
+- [`docs/viabilidade-hub-agentico-afiliados.md`](docs/viabilidade-hub-agentico-afiliados.md): análise de
+  viabilidade do produto do lado da demanda, um hub agêntico de compras sobre os marketplaces brasileiros
+  com Mandate Engine e receita por afiliação, distribuído em WhatsApp, Claude e ChatGPT. Cobre o que o
+  repositório de referência entrega, acesso a catálogo e afiliação por marketplace, modos de concluir a
+  compra, trilhos de pagamento no Brasil, concorrência, economia unitária, regulação e sequência.
 
 ## Tese em uma frase
 

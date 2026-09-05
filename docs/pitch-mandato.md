@@ -266,6 +266,39 @@ Uso de recursos em 15 meses: equipe ≈ R$ 3,5 a 4,5 milhões; modelo e infraest
 | Trilhos de pagamento atrasam | Um toque e Pix Automático não dependem de Agent Pay nem de Visa |
 | Tamanho do mercado | Dezenas de milhões no SOM; a fase 3 muda a escala |
 
+### 13.1 E se Google, OpenAI, Anthropic ou Meta entrarem?
+
+Não dá para impedir a entrada. O desenho faz com que a entrada aumente o volume em vez de matar o negócio, porque eles competem pela interface do consumidor e o Mandato fica do outro lado da interface.
+
+**O que cada um vai fazer, pelo que já fizeram.**
+
+| Quem | Evidência | Leitura |
+|---|---|---|
+| OpenAI | Lançou e retirou o checkout dentro do chat em seis meses; ficou com descoberta e links; integra por Shopify, Stripe e grandes marcas [6] | Não assina contrato com varejista regional nem cuida da exceção |
+| Anthropic | "Camada de inteligência, não vitrine nem checkout"; publicou o código de agentes de comércio como referência aberta [13] | Quem dá o código quer que outros construam a camada; canal e fornecedor, não concorrente |
+| Google | UCP, Universal Cart, AI Mode, Gemini, Google Pay, mandatos AP2, Merchant Center | A ameaça real; chega ao Brasil por plataforma e por grandes varejistas, sem WhatsApp, sem Pix nativo e sem operação de exceção |
+| Meta | WhatsApp Business AI e marketplace nativo com Pix [12] | O maior risco de canal no Brasil; mas vende ferramenta e anúncio ao lojista, e um agente neutro entre lojistas briga com o anúncio |
+
+**Cinco proteções, em ordem de força.**
+
+1. **Ficar do lado do varejista.** O que a plataforma precisa do lojista é dado vivo, checkout por agente, credencial delegada, política por canal, atribuição e alguém que responda pela exceção. Isso é o kernel. Se o varejo recorrente brasileiro fica legível para qualquer agente através dele, a entrada do Google aumenta o volume do Mandato. O agente próprio é o primeiro cliente e a prova, não o moat.
+2. **Ser dono do mandato, não da conversa.** O mandato é objeto jurídico e financeiro: limites, ledger, responsabilidade, arrependimento, LGPD. As plataformas fogem dessa responsabilidade. Um custodiante neutro do mandato, serializado no padrão AP2 que Google e Mastercard levaram à FIDO [14], é executável a partir do Gemini ou do ChatGPT.
+3. **Fazer o trabalho que plataforma global não faz.** Substituição por regra, janela de entrega por CEP, Pix Automático por varejista, Agent Pay com Itaú e Santander, nota fiscal, CDC, suporte em português no WhatsApp. O Google integra a Shopify; não integra a farmácia regional.
+4. **Não depender de nenhuma superfície.** WhatsApp como canal principal, app e web como fallback, conectores no Claude e no ChatGPT como topo de funil. Conta, lista da casa, mandato e contrato com o varejista são nossos. O modelo é trocável: o kernel separa ferramentas, políticas e evals do modelo, com runtimes para Vertex, Bedrock e Foundry.
+5. **Chegar antes e no padrão deles.** Varejistas integrados e mandatos ativos antes do UCP chegar ao Brasil; implementação local de UCP, ACP e AP2 com Pix e Pix Automático dentro. O implementador local do padrão vira parceiro, não alvo.
+
+**Cenários.**
+
+| Cenário | Probabilidade | Resposta |
+|---|---|---|
+| Plataformas cobrem grandes lojistas por UCP e ACP; varejo recorrente local segue fragmentado | Alta, 12 a 24 meses | O Mandato é o integrador; o agente próprio segue como nicho rentável |
+| Google lança reposição agêntica no Brasil com Pix | Média, 24 meses ou mais | Pivô para o lado do varejista: provedor de agente de negócio UCP; receita por transação em qualquer agente. Mesmo kernel |
+| Anthropic ou OpenAI restringem apps de comércio ou cobram taxa | Média | Perde-se um canal de topo de funil; WhatsApp e app seguem |
+| Meta faz recorrência multi-lojista no WhatsApp | Baixa; conflita com anúncio | O Mandato é a camada que os lojistas do WhatsApp usam para atender o agente da Meta |
+| Um deles, ou Mercado Livre, iFood ou um banco, compra a empresa | Possível a partir da fase 2 | Saída legítima; o ativo é o varejo integrado mais os mandatos ativos |
+
+**O que não protege.** Competir em qualidade de modelo, competir em polimento de interface, exclusividade com varejista, e reter dado contra o consumidor.
+
 ---
 
 ## 14. O pedido

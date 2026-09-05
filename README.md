@@ -22,6 +22,10 @@ Produto de comércio agêntico construído sobre o repositório de referência
 - [`docs/pitch-mandato.md`](docs/pitch-mandato.md): o Mandato em formato de pitch: dor do mercado,
   por que agora, solução, ICP, TAM, SAM e SOM, modelo de negócio, diferenciação, go-to-market, plano
   de 18 meses, time e recursos, riscos e o pedido ao varejista e ao investidor.
+- [`docs/gbrain-analise-mandato.md`](docs/gbrain-analise-mandato.md): o Mandato testado no gbrain de
+  Garry Tan: veredito, o que a ferramenta derrubou e confirmou, lacunas por prioridade com o experimento
+  que fecha cada uma, o experimento de 60 dias com critérios de morte, os limites do teste e o que muda
+  no plano. As respostas brutas do gbrain estão em [`docs/gbrain/`](docs/gbrain/).
 
 ## Tese em uma frase
 

@@ -113,6 +113,26 @@ Leitura: o SOM é um negócio de dezenas de milhões por ano. O que multiplica �
 
 ## 7. Modelo de negócio
 
+### 7.0 Em uma frase, e o fluxo do dinheiro
+
+**Cobramos do varejista uma comissão sobre cada pedido recorrente que o Mandato gerou e ele entregou. É isso. O resto é complemento.**
+
+```
+ Consumidor ──── paga R$ 450 ao varejista (Pix Automático, Agent Pay ou um toque) ───► Varejista
+ Varejista  ──── entrega o pedido ──────────────────────────────────────────────────► Consumidor
+ Varejista  ──── fatura mensal do Mandato: 6% dos pedidos entregues = R$ 27 ────────► Mandato
+```
+
+O dinheiro do consumidor nunca passa pelo Mandato. A comissão incide sobre o valor dos produtos do pedido entregue, sem frete, e é apurada pelo id do pedido na integração. Pedido cancelado ou devolvido não gera comissão.
+
+| Faixa | Sobre o quê | Por que o varejista paga |
+|---|---|---|
+| 3% a 4% | Pedidos de uma casa que o próprio varejista trouxe, na "loja preferida" | Ele já tinha o cliente; paga pela automação e pela frequência que o app dele não entrega |
+| 6% a 8% | Pedidos de uma casa que veio de outro parceiro ou do WhatsApp, ou pedido que o Mandato deslocou para ele por preço, prazo ou estoque | Demanda nova, comparável ao que paga a um marketplace de delivery, pela metade |
+| Piso | Pedido mínimo e comissão mínima por pedido, a negociar | Cesta pequena não paga a operação |
+
+Sequência: fases 0 e 1 vivem só de comissão. O SaaS entra na fase 2, quando existirem painel e exposição a agentes externos. Marcas entram na fase 3. Assinatura do consumidor só se o teste da fase 1 provar que alguém paga.
+
 ### 7.1 Linhas de receita
 
 | Linha | Quem paga | Preço | Quando entra |
@@ -148,6 +168,20 @@ O custo de modelo é baixo porque a conversa acontece uma vez. Depois, o agente 
 ---
 
 ## 8. Diferenciação e concorrência
+
+### 8.1 De quem tiramos dinheiro
+
+Não combatemos o iFood na entrega nem a 99 na corrida. Combatemos em três frentes, e cada uma tira dinheiro de alguém diferente.
+
+| Frente | De quem tiramos | O que disputamos | Como ganhamos |
+|---|---|---|---|
+| **Orçamento do varejista** | iFood, Rappi, 99Food, Keeta (taxa por pedido); Google e Meta (mídia de performance) | A fatia do orçamento de canal que paga por demanda e retenção | Metade do preço por um pedido que se repete sozinho. O varejista entrega; não fazemos logística |
+| **Cesta recorrente da casa** | Amazon (Programe e Poupe), Mercado Livre Supermercado, Shopee, assinaturas dos apps de pet e farmácia | Quem é o lugar onde a casa repõe | Multi-loja, WhatsApp e mandato; eles são loja única |
+| **Camada do agente** | Google (UCP, AI Mode), OpenAI, Meta (WhatsApp Business AI), o assistente do Mercado Livre, bancos com Agent Pay | Quem fica entre o consumidor e o varejista quando a compra vira delegada | Chegar antes, com varejistas integrados e mandatos ativos, e virar o conector deles |
+
+Não combatemos: o varejista, que é o cliente; as bandeiras e os iniciadores de pagamento, que são os trilhos; as plataformas de e-commerce, que são o canal de integração. O Mercado Livre é concorrente na cesta e parceiro possível se abrir integração. O iFood é concorrente no orçamento e poderia ser parceiro de entrega para varejista sem logística; o plano não conta com isso.
+
+### 8.2 Alternativas do consumidor e do varejista
 
 | Quem | O que faz | Por que não resolve a dor | Por que não nos copia amanhã |
 |---|---|---|---|

@@ -15,6 +15,10 @@ Produto de comércio agêntico construído sobre o repositório de referência
   com Mandate Engine e receita por afiliação, distribuído em WhatsApp, Claude e ChatGPT. Cobre o que o
   repositório de referência entrega, acesso a catálogo e afiliação por marketplace, modos de concluir a
   compra, trilhos de pagamento no Brasil, concorrência, economia unitária, regulação e sequência.
+- [`docs/proposta-produto-mandato.md`](docs/proposta-produto-mandato.md): proposta de produto
+  comercialmente viável derivada da análise, o Mandato: agente de reposição da casa sob mandato do
+  consumidor, pago pelo varejista parceiro por pedido entregue, com pagamento por Pix Automático e
+  tokens de agente, WhatsApp como canal principal e o mesmo kernel do Commerce Control Plane.
 
 ## Tese em uma frase
 

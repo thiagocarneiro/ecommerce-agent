@@ -19,7 +19,7 @@ Produto de comércio agêntico construído sobre o repositório de referência
   comercialmente viável derivada da análise, o Mandato: agente de reposição da casa sob mandato do
   consumidor, pago pelo varejista parceiro por pedido entregue, com pagamento por Pix Automático e
   tokens de agente, WhatsApp como canal principal e o mesmo kernel do Commerce Control Plane.
-- [`docs/pitch-mandato.md`](docs/pitch-mandato.md): o Mandato em formato de pitch: dor do mercado,
+- [`docs/pitch-mandato.md`](docs/pitch-mandato.md): o Mandato em formato de pitch (v0.2, revisado após o gbrain): dor do mercado,
   por que agora, solução, ICP, TAM, SAM e SOM, modelo de negócio, diferenciação, go-to-market, plano
   de 18 meses, time e recursos, riscos e o pedido ao varejista e ao investidor.
 - [`docs/gbrain-analise-mandato.md`](docs/gbrain-analise-mandato.md): o Mandato testado no gbrain de
